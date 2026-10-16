@@ -161,11 +161,11 @@
 
 
                 <form
-                    id="formulario-contacto"
-                    action="https://script.google.com/macros/s/AKfycbw9MCAxdNZzAYWAcUl7oF7qz7sMlZqYrc6TTbxPRgeMRo52duho3zDGGxDqIv5DFe6C/exec"
-                    method="POST"
-                    novalidate>
-
+    id="formulario-contacto"
+    action="https://script.google.com/macros/s/AKfycbw9MCAxdNZzAYWAcUl7oF7qz7sMlZqYrc6TTbxPRgeMRo52duho3zDGGxDqIv5DFe6C/exec"
+    method="POST"
+    target="envio-oculto"
+    novalidate>
 
                     <!-- NOMBRE -->
 
@@ -234,6 +234,7 @@
                     <p id="estado-formulario" class="estado-formulario" role="status" aria-live="polite"></p>
 
                 </form>
+                <iframe name="envio-oculto" id="envio-oculto" title="Respuesta del envío" hidden></iframe>
 
             </div>
 
