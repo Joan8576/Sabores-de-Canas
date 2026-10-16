@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Sabores de Cañas</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            <h2>Sabores de Cañas</h2>
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="lugares.html">Lugares</a>
+            <a href="menu.html">Menú</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             TÍTULO DE LA PÁGINA
+        ========================== -->
+
+        <section class="encabezado-pagina">
+
+            <p class="subtitulo">
+                Información
+            </p>
+
+            <h1>Contacto</h1>
+
+            <p>
+                Consulta los números de contacto de los
+                establecimientos incluidos en nuestra guía.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section class="contacto-contenedor">
+
+
+            <!-- INFORMACIÓN DE LOS LUGARES -->
+
+            <div class="datos-contacto">
+
+                <h2>Contactos de los lugares</h2>
+
+
+                <div class="contacto-lugar">
+
+                    <h3>Bastos Restaurante</h3>
+
+                    <p>
+                        📞 +506 7005 3504
+                    </p>
+
+                    <p>
+                        📍 100 m sur y 25 m este del BCR, Cañas.
+                    </p>
+
+                </div>
+
+
+                <div class="contacto-lugar">
+
+                    <h3>Café Bohemio</h3>
+
+                    <p>
+                        📞 +506 6455 0825
+                    </p>
+
+                    <p>
+                        📍 75 m este de Pali, a la par de relojería, Cañas.
+                    </p>
+
+                </div>
+
+
+                <div class="contacto-lugar">
+
+                    <h3>Restaurante Mimi</h3>
+
+                    <p>
+                        📞 +506 2669 2373
+                    </p>
+
+                    <p>
+                        📍 Cañas, Guanacaste.
+                    </p>
+
+                </div>
+
+
+                <div class="contacto-lugar">
+
+                    <h3>Soda La Central</h3>
+
+                    <p>
+                        📞 +506 2669 3290
+                    </p>
+
+                    <p>
+                        📍 Cañas, Guanacaste.
+                    </p>
+
+                </div>
+
+
+                <div class="contacto-lugar">
+
+                    <h3>Restaurante Don Rogelio</h3>
+
+                    <p>
+                        📞 +506 2668 6611
+                    </p>
+
+                    <p>
+                        📍 Cañas, Guanacaste.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 FORMULARIO
+            ========================== -->
+
+            <div class="caja-formulario">
+
+                <h2>Envíanos un mensaje</h2>
+
+                <p>
+                    Puedes escribir tus consultas o comentarios
+                    sobre la guía gastronómica.
+                </p>
+
+
+                <form
+                    id="formulario-contacto"
+                    action="https://script.google.com/macros/s/AKfycbw9MCAxdNZzAYWAcUl7oF7qz7sMlZqYrc6TTbxPRgeMRo52duho3zDGGxDqIv5DFe6C/exec"
+                    method="POST"
+                    novalidate>
+
+
+                    <!-- NOMBRE -->
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Escribe tu nombre"
+                            required>
+
+                    </div>
+
+
+                    <!-- CORREO -->
+
+                    <div class="campo">
+
+                        <label for="correo">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="ejemplo@correo.com"
+                            required>
+
+                    </div>
+
+
+                    <!-- MENSAJE -->
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            placeholder="Escribe tu mensaje"
+                            required></textarea>
+
+                    </div>
+
+
+                    <!-- BOTÓN -->
+
+                    <button
+                        type="submit"
+                        class="boton">
+
+                        ENVIAR MENSAJE
+
+                    </button>
+
+                    <p id="estado-formulario" class="estado-formulario" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Sabores de Cañas
+        </p>
+
+        <p>
+            Guía Web Gastronómica de Cañas, Guanacaste
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
